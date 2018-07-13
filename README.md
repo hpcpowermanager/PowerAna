@@ -1,5 +1,5 @@
 # PowerAna
-A power measurement and analysis tool for HPC workloads. It currently measures cpu percentage utilization, idle percentage utilization, package c-states (c2, c3, c6 & c7), package power, core power, dram power and core c-states (c3, c6 & c7) with the sampling frequency of one second.
+PowerAna is a power measurement and analysis tool for HPC workloads. It currently measures cpu percentage utilization, idle percentage utilization, package c-states (c2, c3, c6 & c7), package power, core power, dram power and core c-states (c3, c6 & c7) of a given workload with the sampling frequency of one second.
 
 Build
 -----
