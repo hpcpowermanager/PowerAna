@@ -160,7 +160,5 @@ int PowerAna::loop() {
     th.join();
 }
 
-int PowerAna::cleanup() {
-    std::cout << ".....Cleaning up!\n";
-    return 0;
+void PowerAna::cleanup() {
 }
