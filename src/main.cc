@@ -50,11 +50,8 @@ int main(int argc, char **argv) {
         }
     }
 
-    if (pa.cleanup()) {
-        std::cout << "Error in HPMA Cleanup.\n";
-        return -1;
-    }
+    pa.cleanup();
 
-    std::cout << "Exit!!!\n";
+    std::cout << "Normal exit.\n";
     return 0;
 }
