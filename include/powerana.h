@@ -30,7 +30,7 @@ class PowerAna {
  public:
     int init();
     int loop();
-    int cleanup();
+    void cleanup();
     void update_counters();
     void update_timestamp();
     void print_headers();
